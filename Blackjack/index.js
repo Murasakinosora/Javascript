@@ -26,6 +26,7 @@ function startGame(){
     let secondCard = randomCard();
     cards = [firstCard, secondCard];
     sum = firstCard + secondCard;
+    hasBlackjack=false;
     renderGame();
 }
 
